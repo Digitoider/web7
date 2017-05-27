@@ -1,0 +1,23 @@
+.frames{
+    display: inline-flex;
+}
+iframe{
+    margin: 5px;
+}
+iframe:first-child{
+    width: 20vw;
+    height: 90vh;
+}
+iframe:nth-child(2){
+    width: 70vw;
+    height: 90vh;
+}
+a{
+    margin-top: 5px;
+    background-color: lightgrey;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color: gray;
+}

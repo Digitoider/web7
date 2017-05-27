@@ -1,0 +1,88 @@
+.form-horizontal{
+	max-width: 500px;
+}
+
+.navbar-brand > img{
+	width: 30px;
+	height: 30px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #F6F6F6;
+}
+.navbar-inverse .navbar-nav > li:hover > a {
+    background-color: #4C878B;
+}
+.navbar {
+	background-color: #4C5B5C;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #F6F6F6;
+    background-color: #343F40;
+}
+.personal_information{
+	padding: 30px;
+	margin-top: 50px;
+	color: #F3EFEF;
+	background-color: #345A5D; 
+	width: 100%;
+	min-height: 85vh;
+}
+.personal_information > h4{
+	color: #C7C7C7;
+}
+
+body{
+	font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif !important;
+	font-size: 16px;
+}
+.footer{
+	background-color: #343F40;
+	width: 100%;
+
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	padding: 20px;
+}
+.footer > a > img{
+	margin-top: 2px;
+	width: 45%;
+	height: 45%;
+}
+
+a{
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: #00D0C4;
+}
+.thumbnail{
+	color: #345A5D !important;
+}
+.thumbnail:hover{
+	color: white !important;
+	background-color: #45777B
+}
+.photoViewer{
+   position: fixed !important;
+   position: absolute;
+   /* background: rgba(255, 0, 0, 0.1); */
+}
+.popover-title, .modal-title{
+	color: #2B4B4D;
+}
+.popover-content, .modal-body{
+	color: #345A5D;
+}
+
+.modal-title{
+	margin-left: 10px;
+}
+
+.testInfo{
+    max-width: 500px !important;
+}
